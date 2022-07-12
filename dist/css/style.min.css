@@ -128,3 +128,20 @@ html {
 	 content: attr(data-front);
 	 transform: translateY(0) rotateX(0);
 }
+
+#proline{
+	animation: load 3s normal forwards;
+}
+
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 96%;
+    }
+}
+
+
