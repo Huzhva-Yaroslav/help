@@ -68,12 +68,12 @@
 
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#about-me">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#expirence">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#my-skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio_scroll">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#price-list">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__link"><a href="#my-contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
 
@@ -110,13 +110,13 @@
             <div class="title title_fz16 promo__subtitle">Меня зовут Ярослав Гужва</div>
             <h1 class="title title_fz48 promo__title" >Я <span style="--i:1">w</span> <span style="--i:2">e</span> <span style="--i:3">b</span> разработчик из города  Днепр</h1>
             <div class="promo__btns">
-                <a  class="btn-flip" id="btn-scroll" data-back="🡻" data-front="Портфолио"></a>
+                <a  class="btn-flip" href="#portfolio_scroll" id="btn-scroll" data-back="🡻" data-front="Портфолио"></a>
               
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about-me">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
@@ -173,7 +173,7 @@
         </div>
     </section>
 
-    <section class="resume">
+    <section class="resume" id="expirence">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Опыт</h2>
             <div class="title title_fz36 title__section-subtitle">Чем я буду полезен</div>
@@ -250,7 +250,7 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="my-skills">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Навыки</h2>
             <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
@@ -311,44 +311,46 @@
             <div class="skills__ratings">
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
-                    <div class="skills__ratings-counter">100%</div>
-                    <div class="skills__ratings-line">
+                    <div class="skills__ratings-counter" id="value1">100</div>
+                    <div class="skills__ratings-line" id="proline" >
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Создание приложений</div>
-                    <div class="skills__ratings-counter">85%</div>
-                    <div class="skills__ratings-line">
+                    <div class="skills__ratings-counter" id="value2">89</div>
+                    <div class="skills__ratings-line" id="proline" >
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Работа с данными</div>
-                    <div class="skills__ratings-counter">90%</div>
-                    <div class="skills__ratings-line">
+                    <div class="skills__ratings-counter" id="value3">91</div>
+                    <div class="skills__ratings-line" id="proline" >
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Креативность</div>
-                    <div class="skills__ratings-counter">75%</div>
-                    <div class="skills__ratings-line">
+                    <div class="skills__ratings-counter" id="value4">91</div>
+                    <div class="skills__ratings-line" id="proline" >
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Создание дизайна</div>
-                    <div class="skills__ratings-counter" >90%</div>
-                    <div class="skills__ratings-line">
-                        <span></span>
+                    <div class="skills__ratings-counter" id="value5">90</div>
+                    <div class="skills__ratings-line" id="proline"> 
+                        <span ></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
                     <div class="title title_fz14 skills__ratings-title">Soft skills</div>
-                    <div class="skills__ratings-counter">95%</div>
-                    <div class="skills__ratings-line" id="progres_bar">
-                        <span></span>
+                    <div class="skills__ratings-counter" id="value6">94</div>
+                    <div class="skills__ratings-line" id="proline"> 
+                        <span ></span>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -362,29 +364,29 @@
             <div class="divider"></div>
 
             <div class="portfolio__wrapper" >
-                <a href="№" class="portfolio__item">
-                    <img src="img/works/uber.jpg" alt="uber">
+                <a href="https://preview.themeforest.net/item/ttulsi-health-supplement-one-page-template/full_screen_preview/23676197?_ga=2.223817307.1546123491.1657650259-988186200.1592592930" target="_blank" class="portfolio__item">
+                    <img src="img/works/works5t-2022.07.12-21_44_31.jpg" alt="uber">
+                </a>
+                <a href="http://preview.themeforest.net/item/pelum-product-landing-page/full_screen_preview/26033520?_ga=2.122046411.1546123491.1657650259-988186200.1592592930" target="_blank" class="portfolio__item">
+                    <img src="img/works/works2-2022.07.12-21_25_14.jpg" alt="pulse">
                 </a>
                 <a href="#" class="portfolio__item">
-                    <img src="img/works/pulse.jpg" alt="pulse">
+                    <img src="img/works/works-english.jpg" alt="english-teacher">
                 </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/bread.jpg" alt="test">
+                <a href="https://igorkorf.com/" target="_blank" class="portfolio__item vertical">
+                    <img src="img/works/screenshot-igorkorf.com-2022.07..jpg" alt="test">
                 </a>
-                <a href="#" class="portfolio__item vertical">
-                    <img src="img/works/plans.jpg" alt="test">
+                <a href="http://kalanidhithemes.com/live-preview/landing-page/BiteMe/html/black-version/slider-bg-image-with-text-overlay.html" target="_blank" class="portfolio__item">
+                    <img src="img/works/worlks7es.com-2022.07.12-21_56_12.jpg" alt="test">
                 </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/ipad.jpg" alt="test">
-                </a>
-                <a href="#" class="portfolio__item horizonal">
-                    <img src="img/works/mac.jpg" alt="test">
+                <a href="https://cactuspot.art/"  target="_blank" class="portfolio__item horizonal">
+                    <img src="img/works/cactuspot.art-2022.07.11-21_03_02.png" alt="cactuspot.art">
                 </a>
             </div>
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price-list">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
             <div class="divider"></div>
@@ -430,7 +432,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="my-contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
@@ -477,7 +479,7 @@
                             <label for="text">Ваше сообщение</label>
                         </div>
                         <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <button class="contacts__btn btn" id="btn-reverce" data-back="✉" data-front="Отправить" ></button>
                             <div class="contacts__policy">
                                 <input required type="checkbox">
                                 <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
@@ -487,6 +489,7 @@
                 </div>
             </div>
         </div>
+   
     </section>
     <script src="js/script.js"></script>
 </body>
